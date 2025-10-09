@@ -19,7 +19,6 @@ import { getRenderingStrategy } from "react-iiif-vault/utils";
 import { ImageBlock } from "./components/ImageBlock";
 import { InfoBlock } from "./components/InfoBlock";
 import { MediaBlock } from "./components/MediaBlock";
-import { TitlePanel } from "./components/TitleBlock";
 import "./styles/lib.css";
 import { twMerge } from "tailwind-merge";
 import { useMediaQuery } from "usehooks-ts";
@@ -136,8 +135,7 @@ export function DelftExhibition(props: DelftExhibitionProps) {
                 enabled ? "opacity-0" : "",
               )}
             >
-              {!fullTitleBar ? <TitlePanel manifest={props.manifest} /> : null}
-              {(props.manifest.items || []).map((canvas: any, idx) => {
+             {(props.manifest.items || []).map((canvas: any, idx) => {
                 if (!canvas) return null;
                 try {
                   const paintables = helper.getPaintables(canvas);
