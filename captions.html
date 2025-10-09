@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HOLLIS Images Metadata to Caption Converter</title>
+  <style>
+    body { font-family: sans-serif; max-width: 700px; margin: auto; }
+    textarea { width: 100%; height: 160px; font-family: monospace; }
+    .output { border: 1px solid #bbb; padding: 10px; margin-top: 10px; min-height: 40px; background: #f6f6f6; }
+    button { margin: 10px 0; }
+    .box { margin-bottom: 40px; }
+  </style>
+</head>
+<body>
+  <h2>Metadata to Caption Converter</h2>
+
+  <!-- Box 1 -->
+  <div class="box">
+    <h3>Main information</h3>
+    <textarea id="input1" placeholder="Paste Harvard-style metadata here..."></textarea>
+    <br>
+    <button onclick="convert1()">Convert to Caption</button>
+    <h4>Caption:</h4>
+    <div class="output" id="output1"></div>
+  </div>
+
+  <!-- Box 2 -->
+  <div class="box">
+    <h3>Image information</h3>
+    <textarea id="input2" placeholder="Paste HOLLIS-style metadata here..."></textarea>
+    <br>
+    <button onclick="convert2()">Convert to Caption</button>
+    <h4>Caption:</h4>
+    <div class="output" id="output2"></div>
+  </div>
+
+  <script>
+    // Box 1: Harvard Fine Arts Library style
+    function convert1() {
+      const input = document.getElementById('input1').value.trim();
+      const lines = input.split('\n').map(line => line.trim()).filter(line => line.length > 0);
+
+      const data = {};
+      for (let i = 0; i < lines.length; i += 2) {
+        const key = lines[i].toLowerCase();
+        const value = lines[i + 1] || '';
+        data[key] = value;
+      }
+
+      const title = data["image title"] || '';
+      const type = data["image type"] || '';
+      const repository = data["harvard repository"] || '';
+      const imageId = data["image id"] || '';
+      const link = data['permalink to this image'] || '';
+
+      let caption = `${title}. ${type.charAt(0).toUpperCase() + type.slice(1)}, ${repository}`;
+      if (imageId) caption += ' ' + imageId + '.';
+      if (link) caption += ' ' + link;
+
+      caption = caption.replace(/\.{2,}/g, '.');
+      caption = caption.replace(/\. ,/, ',');
+      caption = caption.replace(/\s+\./g, '.');
+
+      document.getElementById('output1').innerText = caption.trim();
+    }
+
+    // Box 2: HOLLIS style
+    function convert2() {
+      const input = document.getElementById('input2').value.trim();
+      const lines = input.split('\n').map(line => line.trim()).filter(line => line.length > 0);
+
+      // Parse key-value pairs
+      const data = {};
+      for (let i = 0; i < lines.length; i += 2) {
+        const key = lines[i].toLowerCase();
+        const value = lines[i + 1] || '';
+        data[key] = value;
+      }
+
+      const author = data["author / creator"] || '';
+      const title = data["title"] || '';
+      const date = data["creation date"] || '';
+      const desc = data["description"] || '';
+      const repository = data["repository"] || '';
+
+      // Get "Techniques" from Description field, e.g., "Materials/Techniques: fresco"
+      let technique = '';
+      let match = desc.match(/techniques?:\s*([a-zA-Z\s]+)/i);
+      if (match) technique = match[1].trim();
+      // Capitalize first letter
+      if (technique) technique = technique.charAt(0).toUpperCase() + technique.slice(1);
+
+      // Compose caption per your example
+      // Michelangelo, 1475-1564, Italian. Sistine Chapel. Ceiling decorations: Creation and scenes from Old Testament, 1508-1512. Fresco. Vatican, Rome, Roma, Lazio, Italy.
+      let caption = '';
+      if (author) caption += author + '. ';
+      if (title) caption += title;
+      if (date) caption += ', ' + date;
+      caption = caption.trim().replace(/,\s*$/, '') + '.'; // Ensures sentence ends with period.
+      if (technique) caption += ' ' + technique + '.';
+      if (repository) caption += ' ' + repository + '.';
+
+      caption = caption.replace(/\.{2,}/g, '.');
+      caption = caption.replace(/\s+\./g, '.');
+
+      document.getElementById('output2').innerText = caption.trim();
+    }
+  </script>
+</body>
+</html>
