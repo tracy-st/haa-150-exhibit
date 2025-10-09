@@ -3,7 +3,7 @@ module.exports = {
 	content: [
 		'./index.html',
 		'./src/**/*.{ts,tsx}',
-		'../delft-exhibition-viewer/src/**/*.{ts,tsx}',
+		'../site/src/**/*.{ts,tsx}',
 	],
 	theme: {
 		extend: {},

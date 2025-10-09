@@ -1,6 +1,6 @@
 /* Import viewer styles first for PostCSS */
-@import '../../docs/src/styles/index.css';
-@import '../../docs/src/styles/lib.css';
+@import '../../site/src/styles/index.css';
+@import '../../site/src/styles/lib.css';
 
 @tailwind base;
 @tailwind components;
