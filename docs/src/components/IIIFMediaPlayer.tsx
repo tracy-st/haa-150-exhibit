@@ -16,7 +16,7 @@ import {
 } from "@vidstack/react";
 import { defaultLayoutIcons, DefaultVideoLayout } from "@vidstack/react/player/layouts/default";
 import { getValue } from "@iiif/helpers";
-import { useTranslation } from "react-i18next";
+import { useTranslation } from "../../node_modules/react-i18next";
 import { useRef } from "react";
 
 interface IIIFMediaPlayerProps {
