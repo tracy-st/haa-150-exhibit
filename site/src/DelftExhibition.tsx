@@ -59,7 +59,7 @@ export function DelftExhibition(props: DelftExhibitionProps) {
   const matches = useMediaQuery("(min-width: 1200px)");
   const helper = createPaintingAnnotationsHelper();
   const {
-    cutCorners = true,
+    cutCorners = false,
     fullTitleBar = false,
     alternativeImageMode = true,
   } = props.options || {};
