@@ -136,8 +136,7 @@ export function DelftExhibition(props: DelftExhibitionProps) {
                 enabled ? "opacity-0" : "",
               )}
             >
-              {!fullTitleBar ? <TitlePanel manifest={props.manifest} /> : null}
-              {(props.manifest.items || []).map((canvas: any, idx) => {
+               {(props.manifest.items || []).map((canvas: any, idx) => {
                 if (!canvas) return null;
                 try {
                   const paintables = helper.getPaintables(canvas);
