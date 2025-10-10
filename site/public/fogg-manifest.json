@@ -143,91 +143,6 @@
       ]
     },
     {
-      "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/4ua9ehgkwe-mgl08uid",
-      "type": "Canvas",
-      "height": 473,
-      "width": 650,
-      "behavior": [
-        "w-12",
-        "h-12"
-      ],
-      "label": {
-        "en": [
-          ""
-        ]
-      },
-      "summary": {
-        "en": [
-          "Lorem ipsum dolor sit amet, sed habemus officiis ex, et vis sale vocibus molestiae. Qui delectus molestiae te. Sea falli iriure tibique cu, legere labitur dignissim at nec. Nam an quot omittam vivendum.\n\nAt elit solet vis, nam quot oratio regione ut, cu utinam aeterno pertinacia mei. Pro te putant definitiones. No sit cibo efficiantur, mutat reque id his. Te natum eruditi assentior eum, te mei accumsan similique. Id tempor voluptaria mei. Et quaestio ocurreret vix, an nominati dissentiunt vim."
-        ]
-      },
-      "items": [
-        {
-          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/4ua9ehgkwe-mgl08uid/annotation-page/zobhfx33qu7-mgl08uid",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/4ua9ehgkwe-mgl08uid/annotation-page/zobhfx33qu7-mgl08uid/annotation/ej64s7r46xp-mgl09c7v",
-              "type": "Annotation",
-              "label": {
-                "en": [
-                  "Title"
-                ]
-              },
-              "summary": {
-                "en": [
-                  "Caption"
-                ]
-              },
-              "motivation": "painting",
-              "rights": "Source",
-              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/4ua9ehgkwe-mgl08uid",
-              "body": {
-                "id": "https://s3.amazonaws.com/media.harvardartmuseums.org/production/uploaded_files/tour_builder/Index_FineArts1a-01.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 473,
-                "width": 650
-              }
-            }
-          ]
-        }
-      ],
-      "annotations": [
-        {
-          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/4ua9ehgkwe-mgl08uid/annotations/z8tvvhdran9-mgl0dgbq",
-          "type": "AnnotationPage",
-          "label": {
-            "en": [
-              "Tour steps"
-            ]
-          },
-          "items": [
-            {
-              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/4ua9ehgkwe-mgl08uid/annotations/z8tvvhdran9-mgl0dgbq/annotation/nnehlgx77mf-mgl0dgzj",
-              "type": "Annotation",
-              "motivation": "describing",
-              "target": {
-                "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/4ua9ehgkwe-mgl08uid/annotation-page/zobhfx33qu7-mgl08uid/annotation/ej64s7r46xp-mgl09c7v",
-                "type": "Annotation"
-              },
-              "body": []
-            },
-            {
-              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/4ua9ehgkwe-mgl08uid/annotations/z8tvvhdran9-mgl0dgbq/annotation/z05u7bax3wi-mgl0fo1l",
-              "type": "Annotation",
-              "motivation": "describing",
-              "target": {
-                "id": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h/annotation/1v53jz95s",
-                "type": "Annotation"
-              },
-              "body": []
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o",
       "type": "Canvas",
       "height": 799,
@@ -363,9 +278,9 @@
       "height": 1000,
       "width": 1000,
       "behavior": [
-        "info",
         "w-12",
-        "h-1"
+        "h-1",
+        "info"
       ],
       "placeholderCanvas": {
         "id": "https://iiif-parser/empty-canvas",
