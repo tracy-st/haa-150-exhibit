@@ -14,13 +14,13 @@
       "height": 2055,
       "width": 2550,
       "behavior": [
-        "bottom",
+        "top",
         "w-12",
         "h-12"
       ],
       "label": {
         "en": [
-          "The Fogg – Old and New"
+          "The Fogg – Old and New"
         ]
       },
       "summary": {
@@ -63,8 +63,8 @@
     {
       "id": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h/canvas/1v53jz95s",
       "type": "Canvas",
-      "height": 2855,
-      "width": 3622,
+      "height": 800,
+      "width": 1015,
       "behavior": [
         "left",
         "w-12",
@@ -86,26 +86,26 @@
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h/annotation/1v53jz95s",
+              "id": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h/canvas/1v53jz95s/annotation-page/annotation/ohl8l8e2t9r-mgl0ji8f",
               "type": "Annotation",
-              "motivation": "painting",
-              "target": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h/canvas/1v53jz95s#xywh=12,9,3609,2845",
               "label": {
                 "en": [
-                  "Harvard University Fogg Museum (old)"
+                  "ImageTitle"
                 ]
               },
               "summary": {
                 "en": [
-                  "Digital Commonwealth, https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h (accessed October 10, 2025)."
+                  "imageCaption"
                 ]
               },
+              "motivation": "painting",
+              "target": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h/canvas/1v53jz95s",
               "body": {
                 "id": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz95s/large_image",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 2855,
-                "width": 3622,
+                "height": 800,
+                "width": 1015,
                 "service": [
                   {
                     "@id": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:1v53jz95s",
@@ -129,7 +129,92 @@
           },
           "items": [
             {
-              "id": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h/canvas/1v53jz95s/annotations/x945t4346v-mgkz1jd5/annotation/ysrqhkmy5i8-mgkz1k84",
+              "id": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h/canvas/1v53jz95s/annotations/x945t4346v-mgkz1jd5/annotation/brroplfqltk-mgl0l1xt",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": {
+                "id": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h/canvas/1v53jz95s/annotation-page/annotation/ohl8l8e2t9r-mgl0ji8f",
+                "type": "Annotation"
+              },
+              "body": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/4ua9ehgkwe-mgl08uid",
+      "type": "Canvas",
+      "height": 473,
+      "width": 650,
+      "behavior": [
+        "w-12",
+        "h-12"
+      ],
+      "label": {
+        "en": [
+          ""
+        ]
+      },
+      "summary": {
+        "en": [
+          "Lorem ipsum dolor sit amet, sed habemus officiis ex, et vis sale vocibus molestiae. Qui delectus molestiae te. Sea falli iriure tibique cu, legere labitur dignissim at nec. Nam an quot omittam vivendum.\n\nAt elit solet vis, nam quot oratio regione ut, cu utinam aeterno pertinacia mei. Pro te putant definitiones. No sit cibo efficiantur, mutat reque id his. Te natum eruditi assentior eum, te mei accumsan similique. Id tempor voluptaria mei. Et quaestio ocurreret vix, an nominati dissentiunt vim."
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/4ua9ehgkwe-mgl08uid/annotation-page/zobhfx33qu7-mgl08uid",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/4ua9ehgkwe-mgl08uid/annotation-page/zobhfx33qu7-mgl08uid/annotation/ej64s7r46xp-mgl09c7v",
+              "type": "Annotation",
+              "label": {
+                "en": [
+                  "Title"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Caption"
+                ]
+              },
+              "motivation": "painting",
+              "rights": "Source",
+              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/4ua9ehgkwe-mgl08uid",
+              "body": {
+                "id": "https://s3.amazonaws.com/media.harvardartmuseums.org/production/uploaded_files/tour_builder/Index_FineArts1a-01.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 473,
+                "width": 650
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/4ua9ehgkwe-mgl08uid/annotations/z8tvvhdran9-mgl0dgbq",
+          "type": "AnnotationPage",
+          "label": {
+            "en": [
+              "Tour steps"
+            ]
+          },
+          "items": [
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/4ua9ehgkwe-mgl08uid/annotations/z8tvvhdran9-mgl0dgbq/annotation/nnehlgx77mf-mgl0dgzj",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": {
+                "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/4ua9ehgkwe-mgl08uid/annotation-page/zobhfx33qu7-mgl08uid/annotation/ej64s7r46xp-mgl09c7v",
+                "type": "Annotation"
+              },
+              "body": []
+            },
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/4ua9ehgkwe-mgl08uid/annotations/z8tvvhdran9-mgl0dgbq/annotation/z05u7bax3wi-mgl0fo1l",
               "type": "Annotation",
               "motivation": "describing",
               "target": {
@@ -137,19 +222,6 @@
                 "type": "Annotation"
               },
               "body": []
-            },
-            {
-              "id": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h/canvas/1v53jz95s/annotations/x945t4346v-mgkz1jd5/annotation/5x4agz2e164-mgkzccue",
-              "type": "Annotation",
-              "motivation": "describing",
-              "target": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h/canvas/1v53jz95s",
-              "body": {
-                "id": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h/canvas/1v53jz95s/annotations/x945t4346v-mgkz1jd5/annotation/5x4agz2e164-mgkzccue/html/en/48403w5qofh-mgkzccue",
-                "type": "TextualBody",
-                "format": "text/html",
-                "language": "en",
-                "value": "<h2>New step</h2><p>Description</p>"
-              }
             }
           ]
         }
@@ -295,8 +367,16 @@
         "w-12",
         "h-1"
       ],
-      "placeholderCanvas": [],
-      "accompanyingCanvas": [],
+      "placeholderCanvas": {
+        "id": "https://iiif-parser/empty-canvas",
+        "type": "Canvas",
+        "items": []
+      },
+      "accompanyingCanvas": {
+        "id": "https://iiif-parser/empty-canvas",
+        "type": "Canvas",
+        "items": []
+      },
       "items": [
         {
           "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/dpmcabcco5-mgky84u4/annotation-page/b7vdtb166fk-mgky84u4",
@@ -319,21 +399,6 @@
             }
           ]
         }
-      ],
-      "annotations": [
-        {
-          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/dpmcabcco5-mgky84u4/annotation-page/ooa7319tdnm-mgky84u4",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/dpmcabcco5-mgky84u4/annotation/ehkeb284ykf-mgky84ub",
-              "type": "Annotation",
-              "motivation": "describing",
-              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/dpmcabcco5-mgky84u4",
-              "body": []
-            }
-          ]
-        }
       ]
     },
     {
@@ -351,8 +416,16 @@
           "Students in Fine Arts Library\n"
         ]
       },
-      "placeholderCanvas": [],
-      "accompanyingCanvas": [],
+      "placeholderCanvas": {
+        "id": "https://iiif-parser/empty-canvas",
+        "type": "Canvas",
+        "items": []
+      },
+      "accompanyingCanvas": {
+        "id": "https://iiif-parser/empty-canvas",
+        "type": "Canvas",
+        "items": []
+      },
       "items": [
         {
           "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/io7tfr77vq-mgjw10s6/AnnotationPage/q1h6s29rxcl-mgjw10s6",
@@ -468,99 +541,55 @@
       ]
     },
     {
-      "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/27y17afrvx2-mgky93rg",
+      "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/wic9a2le4p-mgl0mx0l",
       "type": "Canvas",
-      "height": 1000,
-      "width": 1000,
+      "height": 2000,
+      "width": 4000,
       "behavior": [
-        "info",
+        "multi-image",
         "w-12",
-        "h-1"
-      ],
-      "placeholderCanvas": [],
-      "accompanyingCanvas": [],
-      "items": [
-        {
-          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/27y17afrvx2-mgky93rg/annotation-page/iepd5kt3309-mgky93rg",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/27y17afrvx2-mgky93rg/annotation/gk6c4dmmovo-mgky93rg",
-              "type": "Annotation",
-              "motivation": "painting",
-              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/27y17afrvx2-mgky93rg",
-              "body": {
-                "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/27y17afrvx2-mgky93rg/annotation/gk6c4dmmovo-mgky93rg/html/en/g87obkmko9h-mgky93rg",
-                "type": "TextualBody",
-                "format": "text/html",
-                "height": 1000,
-                "width": 1000,
-                "language": "en",
-                "value": "<h2 id=\"in-detail\">In Detail</h2>"
-              }
-            }
-          ]
-        }
-      ],
-      "annotations": [
-        {
-          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/27y17afrvx2-mgky93rg/annotation-page/qdhjd34mhaq-mgky93rg",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/27y17afrvx2-mgky93rg/annotation/lkzq7xot9cs-mgky93rj",
-              "type": "Annotation",
-              "motivation": "describing",
-              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/27y17afrvx2-mgky93rg",
-              "body": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/9lmoy1zn3-mgjumm4l",
-      "type": "Canvas",
-      "height": 1066,
-      "width": 1454,
-      "behavior": [
-        "image",
-        "w-8",
-        "h-6",
-        "slide"
+        "h-10"
       ],
       "label": {
         "en": [
-          "Creation of Adam. Detail of Adam's mouth and nose. Restored."
+          "In Detail"
         ]
       },
       "summary": {
         "en": [
-          "Color slide, Harvard Fine Arts Library, Digital Images & Slides Collection 1990.12266 7471042. http://id.lib.harvard.edu/images/olvwork51472/urn-3:FHCL:1193521/catalog"
+          "Slides at the Fine Arts Library"
         ]
       },
-      "placeholderCanvas": [],
-      "accompanyingCanvas": [],
+      "placeholderCanvas": {
+        "id": "https://iiif-parser/empty-canvas",
+        "type": "Canvas",
+        "items": []
+      },
+      "accompanyingCanvas": {
+        "id": "https://iiif-parser/empty-canvas",
+        "type": "Canvas",
+        "items": []
+      },
       "items": [
         {
-          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/9lmoy1zn3-mgjumm4l/AnnotationPage/a9b32bgmiu6-mgjumm51",
+          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/wic9a2le4p-mgl0mx0l/AnnotationPage/1lp1n18019b-mgl0mx0l",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/annotation/j4d96znyfua-mgjumm4l",
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/wic9a2le4p-mgl0mx0l/AnnotationPage/1lp1n18019b-mgl0mx0l/annotation/g7chft7z9f8-mgl0nn5b",
               "type": "Annotation",
               "label": {
                 "en": [
-                  "Creation of Adam. Detail of Adam's mouth and nose. Restored. "
+                  "Creation of Adam. Detail of Adam's mouth and nose. Restored."
                 ]
               },
               "summary": {
                 "en": [
-                  "Color slide, Harvard Fine Arts Library, Digital Images & Slides Collection 1990.12266 7471042. http://id.lib.harvard.edu/images/olvwork51472/urn-3:FHCL:1193521/catalog"
+                  "<span>Color slide, Harvard Fine Arts Library, Digital Images &amp; Slides Collection 1990.12266 7471042. <a href=\"\">http://id.lib.harvard.edu/images/olvwork51472/urn-3:FHCL:1193521/catalog</a></span>"
                 ]
               },
               "motivation": "painting",
-              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/9lmoy1zn3-mgjumm4l",
+              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/wic9a2le4p-mgl0mx0l#xywh=239,193,2207,1618",
               "body": {
                 "id": "https://tracy-st.github.io/haa-150-exhibit/site/public/adam_detail.jpg",
                 "type": "Image",
@@ -568,49 +597,22 @@
                 "height": 1066,
                 "width": 1454
               }
-            }
-          ]
-        }
-      ],
-      "annotations": [
-        {
-          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/9lmoy1zn3-mgjumm4l/AnnotationPage/ozjq0297ep-mgjumm51",
-          "type": "AnnotationPage"
-        }
-      ]
-    },
-    {
-      "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/duwa6tk1nzl-mgkydsa8",
-      "type": "Canvas",
-      "height": 3339,
-      "width": 2400,
-      "behavior": [
-        "w-4",
-        "h-6",
-        "slide"
-      ],
-      "label": {
-        "en": [
-          "Creation of Adam. Detail: Adam's hand and God's finger. Restored."
-        ]
-      },
-      "summary": {
-        "en": [
-          "Color slide, Harvard Fine Arts Library, Digital Images & Slides Collection 1990.12114 7470996. http://id.lib.harvard.edu/images/olvwork51472/urn-3:FHCL:1193520/catalog"
-        ]
-      },
-      "placeholderCanvas": [],
-      "accompanyingCanvas": [],
-      "items": [
-        {
-          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/duwa6tk1nzl-mgkydsa8/AnnotationPage/ki4ftrc9ozs-mgkydsbm",
-          "type": "AnnotationPage",
-          "items": [
+            },
             {
-              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/annotation/1uce1j8h56p-mgkydsa8",
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/wic9a2le4p-mgl0mx0l/AnnotationPage/1lp1n18019b-mgl0mx0l/annotation/2xxonccaw6e-mgl0nusa",
               "type": "Annotation",
+              "label": {
+                "en": [
+                  "Creation of Adam. Detail: Adam's hand and God's finger. Restored."
+                ]
+              },
+              "summary": {
+                "en": [
+                  "<span>Color slide, Harvard Fine Arts Library, Digital Images &amp; Slides Collection 1990.12114 7470996. <a href=\"\">http://id.lib.harvard.edu/images/olvwork51472/urn-3:FHCL:1193520/catalog</a></span>"
+                ]
+              },
               "motivation": "painting",
-              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/duwa6tk1nzl-mgkydsa8",
+              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/wic9a2le4p-mgl0mx0l#xywh=2687,271,1054,1466",
               "body": {
                 "id": "https://tracy-st.github.io/haa-150-exhibit/site/public/adam_finger.jpg",
                 "type": "Image",
@@ -624,8 +626,30 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/duwa6tk1nzl-mgkydsa8/AnnotationPage/9yt30ufn5r8-mgkydsbm",
-          "type": "AnnotationPage"
+          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/wic9a2le4p-mgl0mx0l/AnnotationPage/ztrfez41ad-mgl0mx0l",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/wic9a2le4p-mgl0mx0l/AnnotationPage/ztrfez41ad-mgl0mx0l/annotation/bpu2lbcw9b-mgl0rpq2",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": {
+                "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/wic9a2le4p-mgl0mx0l/AnnotationPage/1lp1n18019b-mgl0mx0l/annotation/g7chft7z9f8-mgl0nn5b",
+                "type": "Annotation"
+              },
+              "body": []
+            },
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/wic9a2le4p-mgl0mx0l/AnnotationPage/ztrfez41ad-mgl0mx0l/annotation/5jfe6858fx6-mgl0rqar",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": {
+                "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/wic9a2le4p-mgl0mx0l/AnnotationPage/1lp1n18019b-mgl0mx0l/annotation/2xxonccaw6e-mgl0nusa",
+                "type": "Annotation"
+              },
+              "body": []
+            }
+          ]
         }
       ]
     }
