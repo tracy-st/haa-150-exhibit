@@ -399,6 +399,21 @@
             }
           ]
         }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/dpmcabcco5-mgky84u4/annotation-page/ooa7319tdnm-mgky84u4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/dpmcabcco5-mgky84u4/annotation/ehkeb284ykf-mgky84ub",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/dpmcabcco5-mgky84u4",
+              "body": []
+            }
+          ]
+        }
       ]
     },
     {
@@ -621,7 +636,7 @@
                 "id": "https://tracy-st.github.io/haa-150-exhibit/site/public/adam_finger.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 3339,
+                "height": 1600,
                 "width": 2400
               }
             }
@@ -649,6 +664,194 @@
               "motivation": "describing",
               "target": {
                 "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/wic9a2le4p-mgl0mx0l/AnnotationPage/1lp1n18019b-mgl0mx0l/annotation/2xxonccaw6e-mgl0nusa",
+                "type": "Annotation"
+              },
+              "body": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/6ij7wq86yvh-mgl3pysm",
+      "type": "Canvas",
+      "height": 3744,
+      "width": 5616,
+      "behavior": [
+        "multi-image",
+        "w-12",
+        "h-6"
+      ],
+      "label": {
+        "en": [
+          "Untitled"
+        ]
+      },
+      "placeholderCanvas": {
+        "id": "https://iiif-parser/empty-canvas",
+        "type": "Canvas",
+        "items": []
+      },
+      "accompanyingCanvas": {
+        "id": "https://iiif-parser/empty-canvas",
+        "type": "Canvas",
+        "items": []
+      },
+      "items": [
+        {
+          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/6ij7wq86yvh-mgl3pysm/AnnotationPage/w6bwsgr4vtk-mgl3pysm",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/6ij7wq86yvh-mgl3pysm/AnnotationPage/w6bwsgr4vtk-mgl3pysm/annotation/0akvwlva7scg-mgl3voyk",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/6ij7wq86yvh-mgl3pysm",
+              "body": {
+                "id": "https://tracy-st.github.io/haa-150-exhibit/site/public/slides.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3744,
+                "width": 5616
+              }
+            },
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/6ij7wq86yvh-mgl3pysm/AnnotationPage/w6bwsgr4vtk-mgl3pysm/annotation/ggfl3uplka-mgl3wytv",
+              "type": "Annotation",
+              "label": {
+                "en": [
+                  "Mouth"
+                ]
+              },
+              "motivation": "painting",
+              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/6ij7wq86yvh-mgl3pysm#xywh=681,1359,1579,1158",
+              "body": {
+                "id": "https://tracy-st.github.io/haa-150-exhibit/site/public/adam_detail.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1066,
+                "width": 1454
+              }
+            },
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/6ij7wq86yvh-mgl3pysm/AnnotationPage/w6bwsgr4vtk-mgl3pysm/annotation/d1ma76wrmxp-mgl45ps6",
+              "type": "Annotation",
+              "label": {
+                "en": [
+                  "Sketch"
+                ]
+              },
+              "motivation": "painting",
+              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/6ij7wq86yvh-mgl3pysm#xywh=3329,1350,1780,1031",
+              "body": {
+                "id": "https://mps.lib.harvard.edu/assets/images/drs:20462883/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 593,
+                "width": 1024,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://mps.lib.harvard.edu/assets/images/drs:20462883",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 1024,
+                    "height": 593,
+                    "sizes": [
+                      {
+                        "width": 128,
+                        "height": 74
+                      },
+                      {
+                        "width": 256,
+                        "height": 148
+                      },
+                      {
+                        "width": 512,
+                        "height": 297
+                      },
+                      {
+                        "width": 1024,
+                        "height": 593
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8
+                        ]
+                      }
+                    ],
+                    "profile": [
+                      "http://iiif.io/api/image/2/level2.json",
+                      {
+                        "formats": [
+                          "jpg",
+                          "tif",
+                          "gif",
+                          "png"
+                        ],
+                        "qualities": [
+                          "bitonal",
+                          "default",
+                          "gray",
+                          "color"
+                        ],
+                        "supports": [
+                          "regionByPx",
+                          "sizeByW",
+                          "sizeByWhListed",
+                          "cors",
+                          "regionSquare",
+                          "sizeByDistortedWh",
+                          "canonicalLinkHeader",
+                          "sizeByConfinedWh",
+                          "sizeByPct",
+                          "jsonldMediaType",
+                          "regionByPct",
+                          "rotationArbitrary",
+                          "sizeByH",
+                          "baseUriRedirect",
+                          "rotationBy90s",
+                          "profileLinkHeader",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "mirroring"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/6ij7wq86yvh-mgl3pysm/AnnotationPage/4yef2477vuk-mgl3pysm",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/6ij7wq86yvh-mgl3pysm/AnnotationPage/4yef2477vuk-mgl3pysm/annotation/9hoe8qp4eqk-mgl46gci",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": {
+                "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/6ij7wq86yvh-mgl3pysm/AnnotationPage/w6bwsgr4vtk-mgl3pysm/annotation/ggfl3uplka-mgl3wytv",
+                "type": "Annotation"
+              },
+              "body": []
+            },
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/6ij7wq86yvh-mgl3pysm/AnnotationPage/4yef2477vuk-mgl3pysm/annotation/7s4ydvo064y-mgl46ha6",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": {
+                "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/6ij7wq86yvh-mgl3pysm/AnnotationPage/w6bwsgr4vtk-mgl3pysm/annotation/d1ma76wrmxp-mgl45ps6",
                 "type": "Annotation"
               },
               "body": []
