@@ -578,6 +578,9 @@
             {
               "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/wic9a2le4p-mgl0mx0l/AnnotationPage/1lp1n18019b-mgl0mx0l/annotation/g7chft7z9f8-mgl0nn5b",
               "type": "Annotation",
+              "behavior": [
+                "slide"
+              ],
               "label": {
                 "en": [
                   "Creation of Adam. Detail of Adam's mouth and nose. Restored."
@@ -589,6 +592,7 @@
                 ]
               },
               "motivation": "painting",
+              "rights": "Source",
               "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/wic9a2le4p-mgl0mx0l#xywh=239,193,2207,1618",
               "body": {
                 "id": "https://tracy-st.github.io/haa-150-exhibit/site/public/adam_detail.jpg",
