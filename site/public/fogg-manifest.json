@@ -20,7 +20,7 @@
       ],
       "label": {
         "en": [
-          "The Fogg – Old and New"
+          "The Fogg – Old and New"
         ]
       },
       "summary": {
@@ -273,13 +273,7 @@
               "type": "Annotation",
               "motivation": "describing",
               "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/dpmcabcco5-mgky84u4",
-              "body": {
-                "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/dpmcabcco5-mgky84u4/annotation/ehkeb284ykf-mgky84ub/html/en/vm1ntn6mvkb-mgky84ub",
-                "type": "TextualBody",
-                "format": "text/html",
-                "language": "en",
-                "value": ""
-              }
+              "body": []
             }
           ]
         }
@@ -461,13 +455,7 @@
               "type": "Annotation",
               "motivation": "describing",
               "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/27y17afrvx2-mgky93rg",
-              "body": {
-                "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/27y17afrvx2-mgky93rg/annotation/lkzq7xot9cs-mgky93rj/html/en/z1n3jxrpq1e-mgky93rj",
-                "type": "TextualBody",
-                "format": "text/html",
-                "language": "en",
-                "value": ""
-              }
+              "body": []
             }
           ]
         }
