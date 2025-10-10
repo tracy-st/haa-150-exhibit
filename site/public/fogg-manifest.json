@@ -36,6 +36,16 @@
             {
               "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/annotation/95eqd8l5aci-mfy9nkjq",
               "type": "Annotation",
+              "label": {
+                "en": [
+                  "Image title"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Caption goes here"
+                ]
+              },
               "motivation": "painting",
               "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/bu4wns9dbxh-mfy9nlgn",
               "body": {
@@ -56,17 +66,18 @@
       "height": 2855,
       "width": 3622,
       "behavior": [
+        "left",
         "w-12",
-        "h-12"
+        "h-7"
       ],
       "label": {
         "none": [
-          "Harvard University Fogg Museum (old). 1895."
+          "The Fogg Museum, c. 1895"
         ]
       },
       "summary": {
         "en": [
-          "Digital Commonwealth, https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h (accessed October 10, 2025)."
+          "Lorem ipsum dolor sit amet, sed habemus officiis ex, et vis sale vocibus molestiae. Qui delectus molestiae te. Sea falli iriure tibique cu, legere labitur dignissim at nec. Nam an quot omittam vivendum.\n\nAt elit solet vis, nam quot oratio regione ut, cu utinam aeterno pertinacia mei. Pro te putant definitiones. No sit cibo efficiantur, mutat reque id his. Te natum eruditi assentior eum, te mei accumsan similique. Id tempor voluptaria mei. Et quaestio ocurreret vix, an nominati dissentiunt vim.\n\nAt est quod tale vidisse, ad euismod facilis eum. Expetendis omittantur per id, minim tollit salutandi per eu. His ei nihil expetenda. Has quot integre maiorum eu."
         ]
       },
       "items": [
@@ -78,7 +89,17 @@
               "id": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h/annotation/1v53jz95s",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h/canvas/1v53jz95s",
+              "target": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h/canvas/1v53jz95s#xywh=12,9,3609,2845",
+              "label": {
+                "en": [
+                  "Harvard University Fogg Museum (old)"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Digital Commonwealth, https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h (accessed October 10, 2025)."
+                ]
+              },
               "body": {
                 "id": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz95s/large_image",
                 "type": "Image",
@@ -92,6 +113,42 @@
                     "profile": "level2"
                   }
                 ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h/canvas/1v53jz95s/annotations/x945t4346v-mgkz1jd5",
+          "type": "AnnotationPage",
+          "label": {
+            "en": [
+              "Tour steps"
+            ]
+          },
+          "items": [
+            {
+              "id": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h/canvas/1v53jz95s/annotations/x945t4346v-mgkz1jd5/annotation/ysrqhkmy5i8-mgkz1k84",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": {
+                "id": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h/annotation/1v53jz95s",
+                "type": "Annotation"
+              },
+              "body": []
+            },
+            {
+              "id": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h/canvas/1v53jz95s/annotations/x945t4346v-mgkz1jd5/annotation/5x4agz2e164-mgkzccue",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h/canvas/1v53jz95s",
+              "body": {
+                "id": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h/canvas/1v53jz95s/annotations/x945t4346v-mgkz1jd5/annotation/5x4agz2e164-mgkzccue/html/en/48403w5qofh-mgkzccue",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<h2>New step</h2><p>Description</p>"
               }
             }
           ]
@@ -132,7 +189,7 @@
               },
               "summary": {
                 "en": [
-                  "Lorem ipsum dolor sit amet, sed habemus officiis ex, et vis sale vocibus molestiae. Qui delectus molestiae te. Sea falli iriure tibique cu, legere labitur dignissim at nec. Nam an quot omittam vivendum."
+                  "Caption goes here"
                 ]
               },
               "motivation": "painting",
