@@ -1,0 +1,7 @@
+/* Import viewer styles first for PostCSS */
+@import '../../haa-150-exhibit/src/styles/index.css';
+@import '../../haa-150-exhibit/src/styles/lib.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
