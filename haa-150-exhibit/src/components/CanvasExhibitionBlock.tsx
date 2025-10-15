@@ -1,12 +1,10 @@
 import type { DefaultPresetOptions, Preset } from "@atlas-viewer/atlas";
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import {
-  CanvasContext,
   CanvasPanel,
   useCanvas,
-  useVault,
 } from "react-iiif-vault";
-import { useExhibition, useExhibitionStep } from "../helpers/exhibition-store";
+import { useExhibitionStep } from "../helpers/exhibition-store";
 import type { ObjectLink } from "../helpers/object-links";
 import { useCanvasHighlights } from "../helpers/use-canvas-highlights";
 
