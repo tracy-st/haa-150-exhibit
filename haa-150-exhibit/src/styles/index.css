@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-  --f-font: "Tahoma", "Fira Sans", sans-serif;
+  --f-font: "Inter", "Fira Sans", sans-serif;
   --f-mono-font: "Fira Mono", monospace;
   font-feature-settings: "kern", "liga", "clig", "calt";
   font-kerning: normal;
