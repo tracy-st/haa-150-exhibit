@@ -1,7 +1,0 @@
-/* Import viewer styles first for PostCSS */
-@import '../../delft-exhibition-viewer/src/styles/index.css';
-@import '../../delft-exhibition-viewer/src/styles/lib.css';
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;

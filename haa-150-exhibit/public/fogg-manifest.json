@@ -1,0 +1,779 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/tjokn4lzi5s-mfy9ab0a",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "HAA 150"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/bu4wns9dbxh-mfy9nlgn",
+      "type": "Canvas",
+      "height": 2055,
+      "width": 2550,
+      "behavior": [
+        "top",
+        "w-12",
+        "h-12"
+      ],
+      "label": {
+        "en": [
+          "The Fogg – Old and New"
+        ]
+      },
+      "summary": {
+        "en": [
+          "Lorem ipsum dolor sit amet, sed habemus officiis ex, et vis sale vocibus molestiae. Qui delectus molestiae te. Sea falli iriure tibique cu, legere labitur dignissim at nec. Nam an quot omittam vivendum.\n\nAt elit solet vis, nam quot oratio regione ut, cu utinam aeterno pertinacia mei. Pro te putant definitiones. No sit cibo efficiantur, mutat reque id his. Te natum eruditi assentior eum, te mei accumsan similique. Id tempor voluptaria mei. Et quaestio ocurreret vix, an nominati dissentiunt vim.\n\nAt est quod tale vidisse, ad euismod facilis eum. Expetendis omittantur per id, minim tollit salutandi per eu. His ei nihil expetenda. Has quot integre maiorum eu."
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/bu4wns9dbxh-mfy9nlgn/annotation-page/b636a5p20ej-mfy9nlgn",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/annotation/95eqd8l5aci-mfy9nkjq",
+              "type": "Annotation",
+              "label": {
+                "en": [
+                  "Image title"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Caption goes here"
+                ]
+              },
+              "motivation": "painting",
+              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/bu4wns9dbxh-mfy9nlgn",
+              "body": {
+                "id": "https://ids.lib.harvard.edu/ids/view/431954696",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2055,
+                "width": 2550
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h/canvas/1v53jz95s",
+      "type": "Canvas",
+      "height": 800,
+      "width": 1015,
+      "behavior": [
+        "left",
+        "w-12",
+        "h-7"
+      ],
+      "label": {
+        "none": [
+          "The Fogg Museum, c. 1895"
+        ]
+      },
+      "summary": {
+        "en": [
+          "Lorem ipsum dolor sit amet, sed habemus officiis ex, et vis sale vocibus molestiae. Qui delectus molestiae te. Sea falli iriure tibique cu, legere labitur dignissim at nec. Nam an quot omittam vivendum.\n\nAt elit solet vis, nam quot oratio regione ut, cu utinam aeterno pertinacia mei. Pro te putant definitiones. No sit cibo efficiantur, mutat reque id his. Te natum eruditi assentior eum, te mei accumsan similique. Id tempor voluptaria mei. Et quaestio ocurreret vix, an nominati dissentiunt vim.\n\nAt est quod tale vidisse, ad euismod facilis eum. Expetendis omittantur per id, minim tollit salutandi per eu. His ei nihil expetenda. Has quot integre maiorum eu."
+        ]
+      },
+      "items": [
+        {
+          "id": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h/canvas/1v53jz95s/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h/canvas/1v53jz95s/annotation-page/annotation/ohl8l8e2t9r-mgl0ji8f",
+              "type": "Annotation",
+              "label": {
+                "en": [
+                  "ImageTitle"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "imageCaption"
+                ]
+              },
+              "motivation": "painting",
+              "target": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h/canvas/1v53jz95s",
+              "body": {
+                "id": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz95s/large_image",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 800,
+                "width": 1015,
+                "service": [
+                  {
+                    "@id": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:1v53jz95s",
+                    "@type": "ImageService2",
+                    "profile": "level2"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h/canvas/1v53jz95s/annotations/x945t4346v-mgkz1jd5",
+          "type": "AnnotationPage",
+          "label": {
+            "en": [
+              "Tour steps"
+            ]
+          },
+          "items": [
+            {
+              "id": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h/canvas/1v53jz95s/annotations/x945t4346v-mgkz1jd5/annotation/brroplfqltk-mgl0l1xt",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": {
+                "id": "https://ark.digitalcommonwealth.org/ark:/50959/1v53jz94h/canvas/1v53jz95s/annotation-page/annotation/ohl8l8e2t9r-mgl0ji8f",
+                "type": "Annotation"
+              },
+              "body": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o",
+      "type": "Canvas",
+      "height": 799,
+      "width": 1024,
+      "behavior": [
+        "w-12",
+        "h-12"
+      ],
+      "label": {
+        "en": [
+          "Fine Arts Library"
+        ]
+      },
+      "summary": {
+        "en": [
+          "Summary of image"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o/annotation-page/jv0uiv8ptfg-mfy9xu9o",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o/annotation-page/jv0uiv8ptfg-mfy9xu9o/annotation/lw5yv60bj8-mfy9y69c",
+              "type": "Annotation",
+              "label": {
+                "en": [
+                  "Library 1"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Caption goes here"
+                ]
+              },
+              "motivation": "painting",
+              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o#xywh=55,90,418,326",
+              "body": {
+                "id": "https://ids.lib.harvard.edu/ids/view/499031455",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 799,
+                "width": 1024
+              }
+            },
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o/annotation-page/jv0uiv8ptfg-mfy9xu9o/annotation/brjhohkrotv-mfya0idt",
+              "type": "Annotation",
+              "label": {
+                "en": [
+                  "Library 2"
+                ]
+              },
+              "motivation": "painting",
+              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o#xywh=597,165,364,366",
+              "body": {
+                "id": "https://ids.lib.harvard.edu/ids/view/499031443",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1024,
+                "width": 1018
+              }
+            },
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o/annotation-page/jv0uiv8ptfg-mfy9xu9o/annotation/nhc5aaftb2-mfya16a0",
+              "type": "Annotation",
+              "label": {
+                "en": [
+                  "Library 3\n"
+                ]
+              },
+              "motivation": "painting",
+              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o#xywh=141,448,414,328",
+              "body": {
+                "id": "https://ids.lib.harvard.edu/ids/view/499031451",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 812,
+                "width": 1024
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o/annotations/tnlm4qeyb9f-mfya6g3j",
+          "type": "AnnotationPage",
+          "label": {
+            "en": [
+              "Tour steps"
+            ]
+          },
+          "items": [
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o/annotations/tnlm4qeyb9f-mfya6g3j/annotation/mr3inuerwv-mfya6h85",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": {
+                "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o/annotation-page/jv0uiv8ptfg-mfy9xu9o/annotation/lw5yv60bj8-mfy9y69c",
+                "type": "Annotation"
+              },
+              "body": []
+            },
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o/annotations/tnlm4qeyb9f-mfya6g3j/annotation/wfopz7lptlm-mfya6nmp",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": {
+                "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o/annotation-page/jv0uiv8ptfg-mfy9xu9o/annotation/brjhohkrotv-mfya0idt",
+                "type": "Annotation"
+              },
+              "body": []
+            },
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o/annotations/tnlm4qeyb9f-mfya6g3j/annotation/ayuxndpwq4e-mfya6ojy",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": {
+                "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o/annotation-page/jv0uiv8ptfg-mfy9xu9o/annotation/nhc5aaftb2-mfya16a0",
+                "type": "Annotation"
+              },
+              "body": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/dpmcabcco5-mgky84u4",
+      "type": "Canvas",
+      "height": 1000,
+      "width": 1000,
+      "behavior": [
+        "w-12",
+        "h-1",
+        "info"
+      ],
+      "placeholderCanvas": {
+        "id": "https://iiif-parser/empty-canvas",
+        "type": "Canvas",
+        "items": []
+      },
+      "accompanyingCanvas": {
+        "id": "https://iiif-parser/empty-canvas",
+        "type": "Canvas",
+        "items": []
+      },
+      "items": [
+        {
+          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/dpmcabcco5-mgky84u4/annotation-page/b7vdtb166fk-mgky84u4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/dpmcabcco5-mgky84u4/annotation/xcbwnogpmdp-mgky84u4",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/dpmcabcco5-mgky84u4",
+              "body": {
+                "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/dpmcabcco5-mgky84u4/annotation/xcbwnogpmdp-mgky84u4/html/en/ua2hhdbgun-mgky84u4",
+                "type": "TextualBody",
+                "format": "text/html",
+                "height": 1000,
+                "width": 1000,
+                "language": "en",
+                "value": "<h2 id=\"1950s\">1950s</h2>"
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/dpmcabcco5-mgky84u4/annotation-page/ooa7319tdnm-mgky84u4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/dpmcabcco5-mgky84u4/annotation/ehkeb284ykf-mgky84ub",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/dpmcabcco5-mgky84u4",
+              "body": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/io7tfr77vq-mgjw10s6",
+      "type": "Canvas",
+      "height": 2055,
+      "width": 2550,
+      "behavior": [
+        "multi-image",
+        "w-7",
+        "h-6"
+      ],
+      "label": {
+        "en": [
+          "Students in Fine Arts Library\n"
+        ]
+      },
+      "placeholderCanvas": {
+        "id": "https://iiif-parser/empty-canvas",
+        "type": "Canvas",
+        "items": []
+      },
+      "accompanyingCanvas": {
+        "id": "https://iiif-parser/empty-canvas",
+        "type": "Canvas",
+        "items": []
+      },
+      "items": [
+        {
+          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/io7tfr77vq-mgjw10s6/AnnotationPage/q1h6s29rxcl-mgjw10s6",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.lib.harvard.edu/manifests/ids:2493816/annotation/anno-2493816.json",
+              "type": "Annotation",
+              "label": {
+                "en": [
+                  "Fogg Museum Library [photograph, ca. 1951]. "
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Harvard University Archives HUV 155 (5-9)."
+                ]
+              },
+              "metadata": [
+                {
+                  "label": {
+                    "en": [
+                      "Title"
+                    ]
+                  },
+                  "value": {
+                    "en": [
+                      "Fogg Museum Library [photograph, ca. 1951], ca. 1951 (cataloger's estimate). Harvard University Archives HUV 155 (5-9)."
+                    ]
+                  }
+                }
+              ],
+              "motivation": "painting",
+              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/io7tfr77vq-mgjw10s6#xywh=517,411,1514,1233",
+              "body": {
+                "id": "https://ids.lib.harvard.edu/ids/iiif/2493816/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2470,
+                "width": 3033,
+                "service": [
+                  {
+                    "@id": "https://ids.lib.harvard.edu/ids/iiif/2493816",
+                    "@type": "ImageService2",
+                    "profile": "level2",
+                    "width": 3033,
+                    "height": 2470
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/io7tfr77vq-mgjw10s6/AnnotationPage/0mt9iovt76wf-mgjw10s6",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/io7tfr77vq-mgjw10s6/AnnotationPage/0mt9iovt76wf-mgjw10s6/annotation/q2ij6em2wy9-mgjw4xo5",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": {
+                "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/io7tfr77vq-mgjw10s6/AnnotationPage/q1h6s29rxcl-mgjw10s6/annotation/x0uvruoro2-mgjw16fg",
+                "type": "Annotation"
+              },
+              "body": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/ld8tjqvopah-mgky3450",
+      "type": "Canvas",
+      "height": 600,
+      "width": 481,
+      "behavior": [
+        "w-5",
+        "h-6"
+      ],
+      "label": {
+        "en": [
+          "Reading Room\n"
+        ]
+      },
+      "summary": {
+        "en": [
+          "Summary of image"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/ld8tjqvopah-mgky3450/annotation-page/gyitcqbu0x7-mgky3450",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/annotation/5318s4ekeor-mgky33vb",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/ld8tjqvopah-mgky3450#xywh=96,120,288,360",
+              "body": {
+                "id": "https://credo.library.umass.edu/images/resize/600x600/muph051-s01b-i00411-001.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 600,
+                "width": 481
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/wic9a2le4p-mgl0mx0l",
+      "type": "Canvas",
+      "height": 2000,
+      "width": 4000,
+      "behavior": [
+        "multi-image",
+        "w-12",
+        "h-10"
+      ],
+      "label": {
+        "en": [
+          "In Detail"
+        ]
+      },
+      "summary": {
+        "en": [
+          "Slides at the Fine Arts Library"
+        ]
+      },
+      "placeholderCanvas": {
+        "id": "https://iiif-parser/empty-canvas",
+        "type": "Canvas",
+        "items": []
+      },
+      "accompanyingCanvas": {
+        "id": "https://iiif-parser/empty-canvas",
+        "type": "Canvas",
+        "items": []
+      },
+      "items": [
+        {
+          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/wic9a2le4p-mgl0mx0l/AnnotationPage/1lp1n18019b-mgl0mx0l",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/wic9a2le4p-mgl0mx0l/AnnotationPage/1lp1n18019b-mgl0mx0l/annotation/g7chft7z9f8-mgl0nn5b",
+              "type": "Annotation",
+              "behavior": [
+                "slide"
+              ],
+              "label": {
+                "en": [
+                  "Creation of Adam. Detail of Adam's mouth and nose. Restored."
+                ]
+              },
+              "summary": {
+                "en": [
+                  "<span>Color slide, Harvard Fine Arts Library, Digital Images &amp; Slides Collection 1990.12266 7471042. <a href=\"\">http://id.lib.harvard.edu/images/olvwork51472/urn-3:FHCL:1193521/catalog</a></span>"
+                ]
+              },
+              "motivation": "painting",
+              "rights": "Source",
+              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/wic9a2le4p-mgl0mx0l#xywh=239,193,2207,1618",
+              "body": {
+                "id": "https://tracy-st.github.io/haa-150-exhibit/site/public/adam_detail.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1066,
+                "width": 1454
+              }
+            },
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/wic9a2le4p-mgl0mx0l/AnnotationPage/1lp1n18019b-mgl0mx0l/annotation/2xxonccaw6e-mgl0nusa",
+              "type": "Annotation",
+              "label": {
+                "en": [
+                  "Creation of Adam. Detail: Adam's hand and God's finger. Restored."
+                ]
+              },
+              "summary": {
+                "en": [
+                  "<span>Color slide, Harvard Fine Arts Library, Digital Images &amp; Slides Collection 1990.12114 7470996. <a href=\"\">http://id.lib.harvard.edu/images/olvwork51472/urn-3:FHCL:1193520/catalog</a></span>"
+                ]
+              },
+              "motivation": "painting",
+              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/wic9a2le4p-mgl0mx0l#xywh=2687,271,1054,1466",
+              "body": {
+                "id": "https://tracy-st.github.io/haa-150-exhibit/site/public/adam_finger.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1600,
+                "width": 2400
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/wic9a2le4p-mgl0mx0l/AnnotationPage/ztrfez41ad-mgl0mx0l",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/wic9a2le4p-mgl0mx0l/AnnotationPage/ztrfez41ad-mgl0mx0l/annotation/bpu2lbcw9b-mgl0rpq2",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": {
+                "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/wic9a2le4p-mgl0mx0l/AnnotationPage/1lp1n18019b-mgl0mx0l/annotation/g7chft7z9f8-mgl0nn5b",
+                "type": "Annotation"
+              },
+              "body": []
+            },
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/wic9a2le4p-mgl0mx0l/AnnotationPage/ztrfez41ad-mgl0mx0l/annotation/5jfe6858fx6-mgl0rqar",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": {
+                "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/wic9a2le4p-mgl0mx0l/AnnotationPage/1lp1n18019b-mgl0mx0l/annotation/2xxonccaw6e-mgl0nusa",
+                "type": "Annotation"
+              },
+              "body": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/6ij7wq86yvh-mgl3pysm",
+      "type": "Canvas",
+      "height": 3744,
+      "width": 5616,
+      "behavior": [
+        "multi-image",
+        "w-12",
+        "h-6"
+      ],
+      "label": {
+        "en": [
+          "Untitled"
+        ]
+      },
+      "placeholderCanvas": {
+        "id": "https://iiif-parser/empty-canvas",
+        "type": "Canvas",
+        "items": []
+      },
+      "accompanyingCanvas": {
+        "id": "https://iiif-parser/empty-canvas",
+        "type": "Canvas",
+        "items": []
+      },
+      "items": [
+        {
+          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/6ij7wq86yvh-mgl3pysm/AnnotationPage/w6bwsgr4vtk-mgl3pysm",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/6ij7wq86yvh-mgl3pysm/AnnotationPage/w6bwsgr4vtk-mgl3pysm/annotation/0akvwlva7scg-mgl3voyk",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/6ij7wq86yvh-mgl3pysm",
+              "body": {
+                "id": "https://tracy-st.github.io/haa-150-exhibit/site/public/slides.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3744,
+                "width": 5616
+              }
+            },
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/6ij7wq86yvh-mgl3pysm/AnnotationPage/w6bwsgr4vtk-mgl3pysm/annotation/ggfl3uplka-mgl3wytv",
+              "type": "Annotation",
+              "label": {
+                "en": [
+                  "Mouth"
+                ]
+              },
+              "motivation": "painting",
+              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/6ij7wq86yvh-mgl3pysm#xywh=681,1359,1579,1158",
+              "body": {
+                "id": "https://tracy-st.github.io/haa-150-exhibit/site/public/adam_detail.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1066,
+                "width": 1454
+              }
+            },
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/6ij7wq86yvh-mgl3pysm/AnnotationPage/w6bwsgr4vtk-mgl3pysm/annotation/d1ma76wrmxp-mgl45ps6",
+              "type": "Annotation",
+              "label": {
+                "en": [
+                  "Sketch"
+                ]
+              },
+              "motivation": "painting",
+              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/6ij7wq86yvh-mgl3pysm#xywh=3329,1350,1780,1031",
+              "body": {
+                "id": "https://mps.lib.harvard.edu/assets/images/drs:20462883/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 593,
+                "width": 1024,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://mps.lib.harvard.edu/assets/images/drs:20462883",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 1024,
+                    "height": 593,
+                    "sizes": [
+                      {
+                        "width": 128,
+                        "height": 74
+                      },
+                      {
+                        "width": 256,
+                        "height": 148
+                      },
+                      {
+                        "width": 512,
+                        "height": 297
+                      },
+                      {
+                        "width": 1024,
+                        "height": 593
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8
+                        ]
+                      }
+                    ],
+                    "profile": [
+                      "http://iiif.io/api/image/2/level2.json",
+                      {
+                        "formats": [
+                          "jpg",
+                          "tif",
+                          "gif",
+                          "png"
+                        ],
+                        "qualities": [
+                          "bitonal",
+                          "default",
+                          "gray",
+                          "color"
+                        ],
+                        "supports": [
+                          "regionByPx",
+                          "sizeByW",
+                          "sizeByWhListed",
+                          "cors",
+                          "regionSquare",
+                          "sizeByDistortedWh",
+                          "canonicalLinkHeader",
+                          "sizeByConfinedWh",
+                          "sizeByPct",
+                          "jsonldMediaType",
+                          "regionByPct",
+                          "rotationArbitrary",
+                          "sizeByH",
+                          "baseUriRedirect",
+                          "rotationBy90s",
+                          "profileLinkHeader",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "mirroring"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/6ij7wq86yvh-mgl3pysm/AnnotationPage/4yef2477vuk-mgl3pysm",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/6ij7wq86yvh-mgl3pysm/AnnotationPage/4yef2477vuk-mgl3pysm/annotation/9hoe8qp4eqk-mgl46gci",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": {
+                "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/6ij7wq86yvh-mgl3pysm/AnnotationPage/w6bwsgr4vtk-mgl3pysm/annotation/ggfl3uplka-mgl3wytv",
+                "type": "Annotation"
+              },
+              "body": []
+            },
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/6ij7wq86yvh-mgl3pysm/AnnotationPage/4yef2477vuk-mgl3pysm/annotation/7s4ydvo064y-mgl46ha6",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": {
+                "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/Canvas/6ij7wq86yvh-mgl3pysm/AnnotationPage/w6bwsgr4vtk-mgl3pysm/annotation/d1ma76wrmxp-mgl45ps6",
+                "type": "Annotation"
+              },
+              "body": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
