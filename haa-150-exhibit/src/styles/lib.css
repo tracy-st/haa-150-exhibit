@@ -36,7 +36,7 @@
 /* Exhibition editorial */
 
 .exhibition-info-block h2 {
-  @apply my-4 text-center font-mono uppercase;
+  @apply my-4 text-center;
 }
 .exhibition-info-block p {
   @apply my-4;
@@ -44,6 +44,7 @@
 .exhibition-info-block a {
   @apply underline underline-offset-4;
 }
+
 
 /* Atlas styling */
 .atlas-container {
