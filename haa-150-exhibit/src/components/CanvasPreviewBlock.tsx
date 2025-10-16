@@ -176,7 +176,7 @@ function CanvasPreviewBlockInner({
           }}
         >
           <CanvasPanel.RenderCanvas strategies={["images"]} enableSizes={false}>
-            {highlights.length > 1
+            {highlights.length > 0
               ? null
               : highlights.map((highlight, index) => {
                   const target = highlight?.selector?.spatial as any;
