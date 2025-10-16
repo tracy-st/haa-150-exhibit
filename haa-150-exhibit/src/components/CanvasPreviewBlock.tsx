@@ -46,7 +46,7 @@ function CanvasPreviewBlockInner({
     [vault, canvas]
   );
   const paintingPage = canvas?.items[0] ? vault.get(canvas.items[0]) : null;
-  const hasMultipleAnnotations = (paintingPage?.items.length || 0) > 1;
+//  const hasMultipleAnnotations = (paintingPage?.items.length || 0) > 0;
 
   const { currentStep, goToStep, isPlaying, nextStep, pause, play, playPause, previousStep, steps } = useStore(store);
 
@@ -155,7 +155,7 @@ function CanvasPreviewBlockInner({
           }}
           renderPreset={config}
           homeOnResize
-          homeCover={cover || !hasMultipleAnnotations}
+         // homeCover={cover || !hasMultipleAnnotations}
           onCreated={(preset) => {
             const clear = preset.runtime.registerHook("useAfterFrame", () => {
               const renderers = (preset.renderer as any).renderers;

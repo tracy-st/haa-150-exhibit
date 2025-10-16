@@ -22,7 +22,7 @@ export function InfoBlockContentsInner() {
     <article className="prose prose-lg h-fit max-w-2xl leading-snug md:leading-normal">
       {annotations.map((annotation: any) => {
         const bodies = vault.get(Array.isArray(annotation.body) ? annotation.body : [annotation.body]);
-        const toShow = bodies.length === 1 ? bodies : bodies.filter((t: any) => (t as any).language === locale);
+        const toShow = bodies.length === 0 ? bodies : bodies.filter((t: any) => (t as any).language === locale);
 
         return toShow.map((body: any, key: number) => {
           return (
