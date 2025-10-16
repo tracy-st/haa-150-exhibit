@@ -5,8 +5,13 @@ module.exports = {
 		'./src/**/*.{ts,tsx}',
 		'../site/src/**/*.{ts,tsx}',
 	],
-	theme: {
-		extend: {},
-	},
-	plugins: [],
-};
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['"Open Sans"', 'sans-serif'],
+		serif: ['"DM Serif Display"', 'serif'],
+      },
+    },
+  },
+  plugins: [],
+}
