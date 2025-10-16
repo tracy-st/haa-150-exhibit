@@ -45,7 +45,7 @@
                 "height": 1000,
                 "width": 1000,
                 "language": "en",
-                "value": "<p>The teaching of art history is inextricably linked to the invention of photography in the mid-19th century.&nbsp; It has been said that art history is “the history of that which can be photographed.”&nbsp; And that “art history as we know it today is the child of photography.”</p>"
+                "value": "<h2 id=\"the-teaching-of-art-history-is-inextricably-linked-to-the-invention-of-photography-in-the-mid-19th-centurynbsp-it-has-been-said-that-art-history-is-“the-history-of-that-which-can-be-photographed”nbsp-and-that-“art-history-as-we-know-it-today-is-the-child-of-photography”\">The teaching of art history is inextricably linked to the invention of photography in the mid-19th century.&nbsp; It has been said that art history is “the history of that which can be photographed.”&nbsp; And that “art history as we know it today is the child of photography.”</h2>"
               }
             }
           ]
@@ -70,8 +70,8 @@
     {
       "id": "https://example.org/honc6oo7064-mgtoqkij/canvas/nk55szew2l-mgtp44bo",
       "type": "Canvas",
-      "height": 321,
-      "width": 241,
+      "height": 5518,
+      "width": 4558,
       "behavior": [
         "w-12",
         "h-9",
@@ -84,7 +84,7 @@
       },
       "summary": {
         "en": [
-          "Charles Eliot Norton became the first professor of art history in the US when he was appointed to Harvard’s faculty in 1875 where he taught until 1898.Thus the holdings of the Fine Arts Library document the teaching of art history in this country from its beginnings.\n \n\n\n \nFrom 1875-1895 here existed the Harvard College Library in Gore Hall (plaque – stood where Widener is now)"
+          "Charles Eliot Norton became the first professor of art history in the US when he was appointed to Harvard’s faculty in 1875 where he taught until 1898.Thus the holdings of the Fine Arts Library document the teaching of art history in this country from its beginnings.\n \nFrom 1875-1895 here existed the Harvard College Library in Gore Hall (plaque – stood where Widener is now)"
         ]
       },
       "rights": "Source",
@@ -94,41 +94,35 @@
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/honc6oo7064-mgtoqkij/annotation/41gnpv8sf2p-mgtp43y3",
+              "id": "https://iiif.lib.harvard.edu/manifests/ids:47171580/annotation/anno-47171580.json",
               "type": "Annotation",
               "label": {
                 "en": [
-                  "Charles Eliot Norton"
+                  "Charles Eliot Norton [photographic portrait, approximately 1903]"
                 ]
               },
               "summary": {
                 "en": [
-                  "source\n"
+                  "<span>Harvard University Archives HUP Norton, Charles Eliot (25b), <a href=\"\">http://id.lib.harvard.edu/images/olvwork731115/catalog</a>.</span>"
                 ]
               },
-              "metadata": [
-                {
-                  "label": {
-                    "en": [
-                      "Label"
-                    ]
-                  },
-                  "value": {
-                    "en": [
-                      "Value"
-                    ]
-                  }
-                }
-              ],
               "motivation": "painting",
-              "rights": "Rights",
-              "target": "https://example.org/honc6oo7064-mgtoqkij/canvas/nk55szew2l-mgtp44bo#xywh=7,9,227,303",
+              "target": "https://example.org/honc6oo7064-mgtoqkij/canvas/nk55szew2l-mgtp44bo",
               "body": {
-                "id": "https://raw.githubusercontent.com/tracy-st/haa-150-exhibit/refs/heads/site/fal/images/Slide1.jpeg",
+                "id": "https://ids.lib.harvard.edu/ids/iiif/47171580/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 321,
-                "width": 241
+                "height": 5518,
+                "width": 4558,
+                "service": [
+                  {
+                    "@id": "https://ids.lib.harvard.edu/ids/iiif/47171580",
+                    "@type": "ImageService2",
+                    "profile": "level2",
+                    "width": 4558,
+                    "height": 5518
+                  }
+                ]
               }
             }
           ]
@@ -145,11 +139,11 @@
           },
           "items": [
             {
-              "id": "https://example.org/honc6oo7064-mgtoqkij/canvas/nk55szew2l-mgtp44bo/annotations/kkhsjv7sqff-mgtq09vn/annotation/10fp9knmym1-mgtqinkg",
+              "id": "https://example.org/honc6oo7064-mgtoqkij/canvas/nk55szew2l-mgtp44bo/annotations/kkhsjv7sqff-mgtq09vn/annotation/xn2c5usy4u-mgtts577",
               "type": "Annotation",
               "motivation": "describing",
               "target": {
-                "id": "https://example.org/honc6oo7064-mgtoqkij/annotation/41gnpv8sf2p-mgtp43y3",
+                "id": "https://iiif.lib.harvard.edu/manifests/ids:47171580/annotation/anno-47171580.json",
                 "type": "Annotation"
               },
               "body": []
