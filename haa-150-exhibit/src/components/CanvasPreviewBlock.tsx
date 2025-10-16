@@ -278,9 +278,9 @@ function CanvasPreviewBlockInner({
                     </div>
                   </div>
                 ) : null}
-                {steps.length > 1 ? (
+                {steps.length > 0 ? (
                   <div className="flex flex-col gap-2 bg-black px-8 pb-8">
-                    <h3 className="sticky top-0 bg-black pb-4 pt-6 font-mono uppercase">Annotations</h3>
+                    <h3 className="sticky top-0 bg-black pb-4 pt-6 font-mono uppercase">Images</h3>
                     {steps.map((step, index) => {
                       return (
                         <VisibleAnnotationsListingItem
