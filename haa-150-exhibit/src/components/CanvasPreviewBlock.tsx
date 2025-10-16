@@ -186,7 +186,7 @@ function CanvasPreviewBlockInner({
           </CanvasPanel.RenderCanvas>
         </CanvasPanel.Viewer>
       </div>
-      <div className="absolute bottom-4 left-0 right-0 z-20 text-center font-mono text-sm text-white">
+      <div className="absolute bottom-4 left-0 right-0 z-20 text-center font-dm-serif text-sm text-white">
         <LocaleString>{canvas.label}</LocaleString>
       </div>
       <Dialog className="relative z-50" open={isOpen} onClose={() => setIsOpen(false)}>

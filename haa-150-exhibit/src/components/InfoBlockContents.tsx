@@ -11,7 +11,7 @@ export function InfoBlockContentsInner() {
   const annotationPage = vault.get(canvas.annotations || []);
   const annotations = vault.get(annotationPage.flatMap((page) => page.items || []));
 
-  if (!annotations.length > 1) {
+  if (!annotations.length) {
     const paintingPage = canvas.items[0] ? vault.get(canvas.items[0]) : null;
     if (paintingPage?.items.length) {
       annotations.push(...vault.get(paintingPage.items));
