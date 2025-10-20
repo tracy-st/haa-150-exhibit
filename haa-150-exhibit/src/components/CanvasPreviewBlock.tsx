@@ -46,7 +46,7 @@ function CanvasPreviewBlockInner({
     [vault, canvas]
   );
   const paintingPage = canvas?.items[0] ? vault.get(canvas.items[0]) : null;
-  const hasMultipleAnnotations = (paintingPage?.items.length || 0) > 1;
+//  const hasMultipleAnnotations = (paintingPage?.items.length || 0) > 0;
 
   const { currentStep, goToStep, isPlaying, nextStep, pause, play, playPause, previousStep, steps } = useStore(store);
 
@@ -155,7 +155,7 @@ function CanvasPreviewBlockInner({
           }}
           renderPreset={config}
           homeOnResize
-          homeCover={cover || !hasMultipleAnnotations}
+         // homeCover={cover || !hasMultipleAnnotations}
           onCreated={(preset) => {
             const clear = preset.runtime.registerHook("useAfterFrame", () => {
               const renderers = (preset.renderer as any).renderers;
@@ -176,7 +176,7 @@ function CanvasPreviewBlockInner({
           }}
         >
           <CanvasPanel.RenderCanvas strategies={["images"]} enableSizes={false}>
-            {highlights.length > 1
+            {highlights.length > 0
               ? null
               : highlights.map((highlight, index) => {
                   const target = highlight?.selector?.spatial as any;
@@ -186,7 +186,7 @@ function CanvasPreviewBlockInner({
           </CanvasPanel.RenderCanvas>
         </CanvasPanel.Viewer>
       </div>
-      <div className="absolute bottom-4 left-0 right-0 z-20 text-center font-mono text-sm text-white">
+      <div className="absolute bottom-4 left-0 right-0 z-20 text-center font-dm-serif text-sm text-white">
         <LocaleString>{canvas.label}</LocaleString>
       </div>
       <Dialog className="relative z-50" open={isOpen} onClose={() => setIsOpen(false)}>
@@ -278,9 +278,9 @@ function CanvasPreviewBlockInner({
                     </div>
                   </div>
                 ) : null}
-                {steps.length > 1 ? (
+                {steps.length > 0 ? (
                   <div className="flex flex-col gap-2 bg-black px-8 pb-8">
-                    <h3 className="sticky top-0 bg-black pb-4 pt-6 font-mono uppercase">Annotations</h3>
+                    <h3 className="sticky top-0 bg-black pb-4 pt-6 font-mono uppercase">Images</h3>
                     {steps.map((step, index) => {
                       return (
                         <VisibleAnnotationsListingItem

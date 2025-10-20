@@ -47,7 +47,7 @@ export function InfoBlock({ id, index, canvas, strategy, firstInfo, scrollEnable
           </LocaleString>
         ))}
 
-        {annotations.length ? (
+        {annotations.length > 1 ? (
           <Suspense
             fallback={
               <div className="underline underline-offset-4">

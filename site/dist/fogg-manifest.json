@@ -1,0 +1,184 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/tjokn4lzi5s-mfy9ab0a",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "The Fogg Museum of Art – Then and Now"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/bu4wns9dbxh-mfy9nlgn",
+      "type": "Canvas",
+      "height": 2055,
+      "width": 2550,
+      "behavior": [
+        "bottom",
+        "w-12",
+        "h-12"
+      ],
+      "label": {
+        "en": [
+          "The Fogg – Old and New"
+        ]
+      },
+      "summary": {
+        "en": [
+          "Lorem ipsum dolor sit amet, sed habemus officiis ex, et vis sale vocibus molestiae. Qui delectus molestiae te. Sea falli iriure tibique cu, legere labitur dignissim at nec. Nam an quot omittam vivendum.\n\nAt elit solet vis, nam quot oratio regione ut, cu utinam aeterno pertinacia mei. Pro te putant definitiones. No sit cibo efficiantur, mutat reque id his. Te natum eruditi assentior eum, te mei accumsan similique. Id tempor voluptaria mei. Et quaestio ocurreret vix, an nominati dissentiunt vim.\n\nAt est quod tale vidisse, ad euismod facilis eum. Expetendis omittantur per id, minim tollit salutandi per eu. His ei nihil expetenda. Has quot integre maiorum eu."
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/bu4wns9dbxh-mfy9nlgn/annotation-page/b636a5p20ej-mfy9nlgn",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/annotation/95eqd8l5aci-mfy9nkjq",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/bu4wns9dbxh-mfy9nlgn",
+              "body": {
+                "id": "https://ids.lib.harvard.edu/ids/view/431954696",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2055,
+                "width": 2550
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o",
+      "type": "Canvas",
+      "height": 799,
+      "width": 1024,
+      "behavior": [
+        "w-12",
+        "h-12"
+      ],
+      "label": {
+        "en": [
+          "Fine Arts Library"
+        ]
+      },
+      "summary": {
+        "en": [
+          "Summary of image"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o/annotation-page/jv0uiv8ptfg-mfy9xu9o",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o/annotation-page/jv0uiv8ptfg-mfy9xu9o/annotation/lw5yv60bj8-mfy9y69c",
+              "type": "Annotation",
+              "label": {
+                "en": [
+                  "Library 1"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Lorem ipsum dolor sit amet, sed habemus officiis ex, et vis sale vocibus molestiae. Qui delectus molestiae te. Sea falli iriure tibique cu, legere labitur dignissim at nec. Nam an quot omittam vivendum."
+                ]
+              },
+              "motivation": "painting",
+              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o#xywh=55,90,418,326",
+              "body": {
+                "id": "https://ids.lib.harvard.edu/ids/view/499031455",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 799,
+                "width": 1024
+              }
+            },
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o/annotation-page/jv0uiv8ptfg-mfy9xu9o/annotation/brjhohkrotv-mfya0idt",
+              "type": "Annotation",
+              "label": {
+                "en": [
+                  "Library 2"
+                ]
+              },
+              "motivation": "painting",
+              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o#xywh=597,165,364,366",
+              "body": {
+                "id": "https://ids.lib.harvard.edu/ids/view/499031443",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1024,
+                "width": 1018
+              }
+            },
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o/annotation-page/jv0uiv8ptfg-mfy9xu9o/annotation/nhc5aaftb2-mfya16a0",
+              "type": "Annotation",
+              "label": {
+                "en": [
+                  "Library 3\n"
+                ]
+              },
+              "motivation": "painting",
+              "target": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o#xywh=141,448,414,328",
+              "body": {
+                "id": "https://ids.lib.harvard.edu/ids/view/499031451",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 812,
+                "width": 1024
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o/annotations/tnlm4qeyb9f-mfya6g3j",
+          "type": "AnnotationPage",
+          "label": {
+            "en": [
+              "Tour steps"
+            ]
+          },
+          "items": [
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o/annotations/tnlm4qeyb9f-mfya6g3j/annotation/mr3inuerwv-mfya6h85",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": {
+                "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o/annotation-page/jv0uiv8ptfg-mfy9xu9o/annotation/lw5yv60bj8-mfy9y69c",
+                "type": "Annotation"
+              },
+              "body": []
+            },
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o/annotations/tnlm4qeyb9f-mfya6g3j/annotation/wfopz7lptlm-mfya6nmp",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": {
+                "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o/annotation-page/jv0uiv8ptfg-mfy9xu9o/annotation/brjhohkrotv-mfya0idt",
+                "type": "Annotation"
+              },
+              "body": []
+            },
+            {
+              "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o/annotations/tnlm4qeyb9f-mfya6g3j/annotation/ayuxndpwq4e-mfya6ojy",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": {
+                "id": "https://example.org/tjokn4lzi5s-mfy9ab0a/canvas/pfgzmnuust-mfy9xu9o/annotation-page/jv0uiv8ptfg-mfy9xu9o/annotation/nhc5aaftb2-mfya16a0",
+                "type": "Annotation"
+              },
+              "body": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
