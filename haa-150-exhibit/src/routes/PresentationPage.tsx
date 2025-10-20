@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react'
 import type { Manifest } from '@iiif/presentation-3'
 import { DelftPresentation } from '../DelftPresentation'
-import { MANIFEST_URL } from '../config'
+import { EXHIBITION_MANIFEST_URL } from '../config'
 
 export default function PresentationPage() {
 	const [manifest, setManifest] = useState<Manifest | null>(null)
 
 	useEffect(() => {
-		fetch(MANIFEST_URL)
+		fetch(EXHIBITION_MANIFEST_URL)
 			.then((r) => r.json())
 			.then(setManifest)
 	}, [])
