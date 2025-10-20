@@ -217,7 +217,7 @@ export function createExhibitionStore(options: ExhibitionStoreOptions) {
   const startIndex = allSteps.findIndex((step) => step.canvasIndex === startCanvasIndex);
 
   return createStore<ExhibitionStore>((set, get) => {
-    let nextFrameTimer: Timer | null = null;
+    let nextFrameTimer: number | null = null;
     const play = () => {
       nextTimer();
     };

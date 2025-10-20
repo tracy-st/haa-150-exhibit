@@ -32,7 +32,7 @@ export type DelftPresentationProps = {
 };
 
 export function DelftPresentation(props: DelftPresentationProps) {
-  const deckRef = useRef<Reveal.Api | null>(null);
+  const deckRef = useRef<any>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const vault = useExistingVault();
   const { cutCorners, autoPlay } = props.options || {};

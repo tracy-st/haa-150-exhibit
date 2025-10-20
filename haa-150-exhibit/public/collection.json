@@ -1,0 +1,95 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://heritage.tudelft.nl/iiif/stores/manifest-editor/collection.json",
+  "type": "Collection",
+  "label": {
+    "en": [
+      "manifest-editor"
+    ]
+  },
+  "hss:slug": "stores/manifest-editor",
+  "items": [
+    {
+      "id": "fogg-manifest.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Teaching Art History"
+        ]
+      },
+      "hss:slug": "manifests/fogg-museum",
+      "thumbnail": [
+        {
+          "id": "https://dlc.services/thumbs/7/37/e7154d7e15c435b7341bce58bc42b9ad/full/133,200/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://dlc.services/thumbs/7/37/e7154d7e15c435b7341bce58bc42b9ad",
+              "@type": "ImageService2",
+              "profile": "http://iiif.io/api/image/2/level0.json",
+              "sizes": [
+                {
+                  "width": 683,
+                  "height": 1024
+                },
+                {
+                  "width": 267,
+                  "height": 400
+                },
+                {
+                  "width": 133,
+                  "height": 200
+                },
+                {
+                  "width": 67,
+                  "height": 100
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+       {
+      "id": "haa-150-manifest.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "The Fogg"
+        ]
+      },
+      "hss:slug": "manifests/haa-150-manifest",
+      "thumbnail": [
+        {
+          "id": "https://dlc.services/thumbs/7/37/e7154d7e15c435b7341bce58bc42b9ad/full/133,200/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://dlc.services/thumbs/7/37/e7154d7e15c435b7341bce58bc42b9ad",
+              "@type": "ImageService2",
+              "profile": "http://iiif.io/api/image/2/level0.json",
+              "sizes": [
+                {
+                  "width": 683,
+                  "height": 1024
+                },
+                {
+                  "width": 267,
+                  "height": 400
+                },
+                {
+                  "width": 133,
+                  "height": 200
+                },
+                {
+                  "width": 67,
+                  "height": 100
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

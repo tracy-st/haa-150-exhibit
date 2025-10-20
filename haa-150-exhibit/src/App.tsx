@@ -7,8 +7,7 @@ export default function App() {
 				<h1 className="text-xl font-semibold">HAA 150</h1>
 				<nav className="flex gap-4">
 					<Link to="/">Home</Link>
-					<Link to="/exhibition">Exhibition</Link>
-					<Link to="/teaching-art-history">Teaching Art History</Link>
+					<Link to="/exhibition">Exhibitions</Link>
 				</nav>
 			</header>
 			<main className="mx-auto max-w-screen-xl p-4">

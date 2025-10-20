@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting…</title>
+    <meta http-equiv="refresh" content="0; url=/haa-150-exhibit/" />
+    <link rel="canonical" href="/haa-150-exhibit/" />
+  </head>
+  <body>
+    <p>Redirecting to <a href="/haa-150-exhibit/">/haa-150-exhibit/</a>…</p>
+    <script>
+      (function() {
+        var base = '/haa-150-exhibit/';
+        // If the URL already contains the repo base, go there; otherwise send to base
+        try {
+          if (location.pathname.indexOf(base) !== -1) {
+            location.replace(base + location.search + location.hash);
+          } else {
+            location.replace(base);
+          }
+        } catch (e) {
+          location.href = base;
+        }
+      })();
+    </script>
+  </body>
+</html>
