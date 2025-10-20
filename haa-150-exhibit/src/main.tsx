@@ -7,7 +7,7 @@ import App from './App.tsx'
 import Home from './routes/Home.tsx'
 import ExhibitionPage from './routes/ExhibitionPage.tsx'
 import TeachingPage from './routes/Teaching.tsx'
-import PresentationPage from './routes/PresentationPage.tsx'
+// import PresentationPage from './routes/PresentationPage.tsx'
 
 const router = createBrowserRouter([
 	{
