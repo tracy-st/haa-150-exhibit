@@ -12,8 +12,6 @@ function ExhibitionPage() {
   const [manifest, setManifest] = useState<any | null>(null);
   const [collection, setCollection] = useState<any | null>(null);
 
-  const isPresentation = search.get("type") === "presentation";
-  const isEmbed = search.get("embed") === "true";
   const manifestId = search.get("manifest");
   // const cutCorners = search.get("cut-corners");
   const fullTitleBar = search.get("full-title-bar");
@@ -62,17 +60,7 @@ function ExhibitionPage() {
   return (
     <div className="flex w-full flex-col items-center">
       <div className="min-h-[90vh] w-full max-w-screen-xl px-5 py-10 lg:px-10">
-        {isPresentation ? (
-          <div className="h-[800px]">
-            {isEmbed ? (
-              <iframe src={`${import.meta.env.BASE_URL}embed.html?manifest=${manifestId}`} className="h-full w-full" title="Presentation" />
-            ) : (
-              <DelftPresentation manifest={manifest} options={options} language="en" viewObjectLinks={[]} />
-            )}
-          </div>
-        ) : (
           <DelftExhibition manifest={manifest} options={options} language="en" viewObjectLinks={[]} />
-        )}
       </div>
     </div>
   );
