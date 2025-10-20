@@ -6,6 +6,7 @@ import App from './App.tsx'
 
 import Home from './routes/Home.tsx'
 import ExhibitionPage from './routes/ExhibitionPage.tsx'
+import TeachingPage from './routes/Teaching.tsx'
 import PresentationPage from './routes/PresentationPage.tsx'
 
 const router = createBrowserRouter([
@@ -15,7 +16,7 @@ const router = createBrowserRouter([
 		children: [
 			{ index: true, element: <Home /> },
 			{ path: 'exhibition', element: <ExhibitionPage /> },
-			{ path: 'presentation', element: <PresentationPage /> },
+			{ path: 'teaching-art-history', element: <TeachingPage /> },
 		],
 	},
 ], { basename: import.meta.env.BASE_URL })
