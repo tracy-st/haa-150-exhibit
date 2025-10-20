@@ -26,14 +26,16 @@ jobs:
         with:
           node-version: 20
           cache: npm
-          cache-dependency-path: app/package-lock.json
+          cache-dependency-path: haa-150-exhibit/haa-150-exhibit/package-lock.json
 
       - name: Install dependencies
-        working-directory: app
+        working-directory: haa-150-exhibit/haa-150-exhibit
         run: npm ci
 
       - name: Build
-        working-directory: app
+        working-directory: haa-150-exhibit/haa-150-exhibit
+        env:
+          GITHUB_PAGES: true
         run: |
           npm run build
           npm run postbuild --if-present
@@ -41,7 +43,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: app/dist
+          path: haa-150-exhibit/haa-150-exhibit/dist
 
   deploy:
     environment:
