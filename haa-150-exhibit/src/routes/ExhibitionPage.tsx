@@ -1,24 +1,26 @@
 import { useEffect, useState } from 'react'
 import type { Manifest } from '@iiif/presentation-3'
 import { DelftExhibition } from '../DelftExhibition'
-import { MANIFEST_URL } from '../config'
+import { EXHIBITION_MANIFEST_URL } from '../config'
 
 export default function ExhibitionPage() {
-	const [manifest, setManifest] = useState<Manifest | null>(null)
+    const [manifest, setManifest] = useState<Manifest | null>(null)
 
-	useEffect(() => {
-		fetch(MANIFEST_URL)
-			.then((r) => r.json())
-			.then(setManifest)
-	}, [])
+    useEffect(() => {
+        const params = new URLSearchParams(window.location.search)
+        const manifestUrl = params.get('manifest') || EXHIBITION_MANIFEST_URL
+        fetch(manifestUrl)
+            .then((r) => r.json())
+            .then(setManifest)
+    }, [])
 
-	if (!manifest) {
-		return <div>Loading manifest…</div>
-	}
+    if (!manifest) {
+        return <div>Loading manifest…</div>
+    }
 
-	return (
-		<div>
-			<DelftExhibition manifest={manifest as any} language="en" viewObjectLinks={[]} />
-		</div>
-	)
+    return (
+        <div>
+            <DelftExhibition manifest={manifest as any} language="en" viewObjectLinks={[]} />
+        </div>
+    )
 }
